@@ -3,16 +3,23 @@ package respochain;
 public class DataBase {
 
 	public int attempts(String id) {
-		return 0;
+		if(id.equals("John Doe"))
+		return 1000;
+		else {
+			return 0;
+		}
 	}
 
 	public boolean connectionOK(String id, String pass) {
-		// TODO Auto-generated method stub
-		return true;
+		if(id.equals("Francis Cabrel")) {
+			return false;
+		}
+		else {
+			return true;
+		}
 	}
 
 	public int connexions(String id) {
-		// TODO Auto-generated method stub
 		return 1000;
 	}
 	

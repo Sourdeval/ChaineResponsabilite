@@ -15,6 +15,8 @@ public class ConnexionHandler extends BaseHandler{
 		}
 		else {
 			System.out.println("Veuillez apprendre votre mot de passe ou le stocker sur KeePass.");
+			System.out.println("Traitement terminé.");
+
 		}
 	}
 }
