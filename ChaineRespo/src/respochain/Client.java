@@ -6,7 +6,7 @@ public class Client {
 		
 		//Initialisation
 		DataBase d = new DataBase();
-		BrutalForceHandler handler1 = new BrutalForceHandler(d);
+		BruteForceHandler handler1 = new BruteForceHandler(d);
 		ConnexionHandler handler2 = new ConnexionHandler(d);
 		GiftHandler handler3 = new GiftHandler(d);
 		handler1.setNext(handler2);

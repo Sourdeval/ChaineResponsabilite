@@ -1,11 +1,11 @@
 package respochain;
 
-public class BrutalForceHandler extends BaseHandler{
+public class BruteForceHandler extends BaseHandler{
 
 	
 	private static final int MAX_ATTEMPTS = 10;
 
-	public BrutalForceHandler(DataBase d) {
+	public BruteForceHandler(DataBase d) {
 		super(d);
 	}
 
