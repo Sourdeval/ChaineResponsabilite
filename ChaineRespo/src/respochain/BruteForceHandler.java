@@ -12,7 +12,7 @@ public class BruteForceHandler extends BaseHandler{
 	public void handle(String id, String pass) {
 		if(data.attempts(id)>=MAX_ATTEMPTS) {
 			System.out.println("Rentre chez toi, hacker du dimanche, tu as épuisé tes tentatives de connexion.");
-			System.out.println("Traitement terminé.");
+			endRequest();
 		}
 		else {
 			System.out.println("Tentative de connexion...");

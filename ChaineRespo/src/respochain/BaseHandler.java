@@ -20,9 +20,13 @@ public abstract class BaseHandler implements IHandler {
 	@Override
 	public abstract void handle(String id, String pass);
 
+	public void endRequest() {
+		System.out.println("Traitement terminé.");
+	}
+	
 	public void nextHandling(String id, String pass) {
 		if(next==null) {
-			System.out.println("Traitement terminé.");
+			endRequest();
 		}
 		else {
 			next.handle(id, pass);
