@@ -5,8 +5,9 @@ public abstract class BaseHandler implements IHandler {
 	protected IHandler next;
 	protected DataBase data;
 	
-	public BaseHandler() {
+	public BaseHandler(DataBase d) {
 		next=null;
+		data=d;
 	}
 	
 	@Override

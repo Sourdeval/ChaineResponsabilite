@@ -4,6 +4,10 @@ public class ConnexionHandler extends BaseHandler{
 
 
 
+	public ConnexionHandler(DataBase d) {
+		super(d);
+	}
+
 	public void handle(String id, String pass) {
 		if(data.connectionOK(id,pass)) {
 			System.out.println("Connexion effectuée.");

@@ -1,18 +1,16 @@
 package respochain;
 
-public class BrutalForceHandler implements IHandler{
+public class BrutalForceHandler extends BaseHandler{
 
-	@Override
-	public void setNext(IHandler h) {
-		// TODO Auto-generated method stub
-		
+	
+
+	
+	public BrutalForceHandler(DataBase d) {
+		super(d);
 	}
 
-	@Override
 	public void handle(String id, String pass) {
-		// TODO Auto-generated method stub
-		
-		
+		nextHandling(id, pass);
 	}
 
 }
