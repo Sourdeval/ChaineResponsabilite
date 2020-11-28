@@ -10,7 +10,7 @@ public class ConnexionHandler extends BaseHandler{
 			nextHandling(id,pass);
 		}
 		else {
-			System.out.println("Veuillez apprendre votre mot de passe ou le stocker sur KeyPass.");
+			System.out.println("Veuillez apprendre votre mot de passe ou le stocker sur KeePass.");
 		}
 	}
 }
