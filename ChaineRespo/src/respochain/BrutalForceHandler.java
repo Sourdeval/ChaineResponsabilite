@@ -12,6 +12,7 @@ public class BrutalForceHandler implements IHandler{
 	public void handle(String id, String pass) {
 		// TODO Auto-generated method stub
 		
+		
 	}
 
 }

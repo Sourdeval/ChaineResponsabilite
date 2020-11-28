@@ -1,17 +1,16 @@
 package respochain;
 
-public class ConnexionHandler implements IHandler{
+public class ConnexionHandler extends BaseHandler{
 
-	@Override
-	public void setNext(IHandler h) {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
+
 	public void handle(String id, String pass) {
-		// TODO Auto-generated method stub
-		
+		if(data.connectionOK(id,pass)) {
+			System.out.println("Connexion effectuée.");
+			nextHandling(id,pass);
+		}
+		else {
+			System.out.println("Veuillez apprendre votre mot de passe ou le stocker sur KeyPass.");
+		}
 	}
-
 }
