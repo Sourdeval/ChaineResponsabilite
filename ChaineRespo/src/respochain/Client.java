@@ -21,5 +21,4 @@ public class Client {
 		handler1.handle("Chuck Norris", "azerty123");
 		
 	}
-
 }

@@ -2,7 +2,6 @@ package respochain;
 
 public class BruteForceHandler extends BaseHandler{
 
-	
 	private static final int MAX_ATTEMPTS = 10;
 
 	public BruteForceHandler(DataBase d) {

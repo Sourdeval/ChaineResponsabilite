@@ -12,9 +12,7 @@ public abstract class BaseHandler implements IHandler {
 	
 	@Override
 	public void setNext(IHandler h) {
-		// TODO Auto-generated method stub
 		next=h;
-		
 	}
 
 	@Override
@@ -31,6 +29,5 @@ public abstract class BaseHandler implements IHandler {
 		else {
 			next.handle(id, pass);
 		}
-		
 	}
 }

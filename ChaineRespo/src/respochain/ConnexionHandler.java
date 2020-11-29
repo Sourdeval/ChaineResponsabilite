@@ -2,8 +2,6 @@ package respochain;
 
 public class ConnexionHandler extends BaseHandler{
 
-
-
 	public ConnexionHandler(DataBase d) {
 		super(d);
 	}
@@ -16,7 +14,6 @@ public class ConnexionHandler extends BaseHandler{
 		else {
 			System.out.println("Veuillez apprendre votre mot de passe ou le stocker sur KeePass.");
 			endRequest();
-
 		}
 	}
 }
