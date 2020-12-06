@@ -3,7 +3,7 @@ package respochain;
 public class DataBase {
 
 	public int attempts(String id) {
-		if(id.equals("John Doe"))
+		if(id.equals("Douzième Requête"))
 		return 1000;
 		else {
 			return 0;
@@ -11,7 +11,7 @@ public class DataBase {
 	}
 
 	public boolean connectionOK(String id, String pass) {
-		if(id.equals("Francis Cabrel")) {
+		if(id.equals("Mauvais Mot de Passe")) {
 			return false;
 		}
 		else {
