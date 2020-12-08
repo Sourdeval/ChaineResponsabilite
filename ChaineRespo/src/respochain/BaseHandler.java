@@ -19,7 +19,7 @@ public abstract class BaseHandler implements IHandler {
 	public abstract void handle(String id, String pass);
 
 	public void endRequest() {
-		System.out.println("Traitement terminé.");
+		System.out.println("Traitement terminé.\n");
 	}
 	
 	public void nextHandling(String id, String pass) {
