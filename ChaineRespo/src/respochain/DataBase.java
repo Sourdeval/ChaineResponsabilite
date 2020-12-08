@@ -4,14 +4,14 @@ public class DataBase {
 
 	public int attempts(String id) {
 		if(id.equals("Douzième Requête"))
-		return 1000;
+			return 1000;
 		else {
 			return 0;
 		}
 	}
 
 	public boolean connectionOK(String id, String pass) {
-		if(id.equals("Mauvais Mot de Passe")) {
+		if(!(pass.equals("azerty123"))) {
 			return false;
 		}
 		else {
